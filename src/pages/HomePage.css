@@ -1,0 +1,12 @@
+.home_page h3 {
+  font-size: 25px;
+  margin: 3vh 0;
+}
+.home_page button {
+  background: none;
+  border: none;
+  color: var(--lightBlue-color);
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}

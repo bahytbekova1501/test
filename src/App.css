@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: "gilroy-bold";
+  src: url("./fonts/Gilroy/gilroy-bold.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "gilroy-black";
+  src: url("./fonts/Gilroy/gilroy-black.ttf") format("truetype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "gilroy-medium";
+  src: url("./fonts/Gilroy/gilroy-medium.ttf") format("truetype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "gilroy-regular";
+  src: url("./fonts/Gilroy/gilroy-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "gilroy-ultralight";
+  src: url("./fonts/Gilroy/gilroy-ultralight.ttf") format("truetype");
 }
 
-.App-link {
-  color: #61dafb;
+
+:root {
+  /* font family */
+  --main-family: "gilroy-regular", sans-serif;
+  --secondary-family: "gilroy-medium", sans-serif;
+  --third-family: "gilroy-black", sans-serif;
+  --fourth-family: "gilroy-ultralight", sans-serif;
+  --fifth-family: "gilroy-bold", sans-serif
+  /* font size */
+  --main-size: 18px;
+  --nav-size: 16px;
+  --third-size: 20px;
+  --section-title-size: 48px;
+
+  /* colors */
+  --black-color: #000000;
+  --blue-color: #2D82BE;
+  --darkBlue-color: #0063A9;
+  --lightBlue-color:#3186C3;
+  --rgba-color: rgba(151, 151, 151, 0.2);
+  --grey-color: #767e8c;
+  --lightgrey-color: #dbdde3;
+  --white-color: #ffffff;
+
+  /* --container-width: 1200px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-family);
 }

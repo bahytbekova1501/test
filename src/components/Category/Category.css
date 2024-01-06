@@ -1,0 +1,32 @@
+.category {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.category_card {
+  cursor: pointer;
+  width: 170px;
+  height: 170px;
+  background-color: #ffffff;
+  margin: 1vh;
+  border-radius: 10px;
+  position: relative;
+  align-self: flex-start;
+}
+.category_card:hover {
+  box-shadow: 0px 10px 30px 0px #00000012;
+}
+.category_card_title {
+  font-size: 14px;
+  padding: 1.5vh 0 0.5vh 1.5vh;
+}
+.category_card_count {
+  font-size: 12px;
+  padding: 0 0 0 1.5vh;
+  color: #727272;
+}
+.category_card_img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

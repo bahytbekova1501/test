@@ -1,0 +1,60 @@
+.adress_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.adress_card {
+  width: 360px;
+  height: 170px;
+  padding: 3vh;
+  background-color: white;
+  margin: 2vh;
+  border-radius: 10px;
+}
+.adress_card:hover {
+  box-shadow: 0px 10px 30px 0px #00000012;
+}
+.adress_top {
+  display: flex;
+  position: relative;
+}
+hr {
+  margin: 15px 0;
+}
+.adress_top h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.adress_market_image {
+  width: 45px;
+  height: 45px;
+  padding-right: 10px;
+}
+.adress_top a {
+  font-size: 12px;
+  color: #0062d5;
+}
+.adress_top button {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.adress_bottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+.adress_bottom img {
+  width: 17px;
+  height: 17px;
+  padding-right: 10px;
+}
+.adress_bottom_col_1 {
+  width: 230px;
+}
+.adress_bottom_col {
+  display: flex;
+  margin: 1.5vh 0;
+}
